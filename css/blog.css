@@ -1,0 +1,31 @@
+#blog h3{
+    text-align: center;
+    color: rgb(253, 210, 16);
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+#blog .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#blog .contenedor a {
+    text-decoration: none;
+}
+#blog article{
+    margin: 15px;
+
+}
+#blog img{
+    width: 100%;
+    max-width: 300px;
+    height: 80%;
+    border-radius: 10px;
+}
+#blog{
+    background: rgba(10, 85, 182);
+}
+#blog .contenedor a h3:hover{
+background: rgb(255, 255, 255,0.3);
+border-radius: 10px;
+
+}
