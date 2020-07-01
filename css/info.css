@@ -3,7 +3,7 @@
     color: rgb(24, 18, 18);
     text-align: center;
     padding: 10px;
-    text-shadow: rgba(5, 47, 163, 0.849) 0.1em 0.1em 0.2em;
+    
 
 
 }
@@ -12,10 +12,15 @@
     flex-wrap: wrap;
     justify-content: center;    
 }
+
 #info .contenedor h4{
     color: black;
+    text-shadow: rgba(230, 232, 238, 0.849) 0.1em 0.1em 0.2em;
+}
+#info a {
     text-decoration: none;
 }
+
 .info-pet {
     margin: 20px;
 

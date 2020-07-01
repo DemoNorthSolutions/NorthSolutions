@@ -5,7 +5,6 @@
     text-align: center;
     width: 95%;
     margin: auto;
-    text-shadow: rgb(160, 164, 170)0.1em 0.1em 0.2em;
     margin-top: 50px;
     border-radius: 5px;
 }
@@ -14,6 +13,7 @@
     padding-top: 0px;
     text-align: center; 
     
+    color: rgb(3, 76, 185);
 
 }
 #infoservicios  .referenciaimg img{
@@ -43,12 +43,16 @@
 
 }
 #infoservicios .tablaneg {
-    border:rgb(253, 210, 16) 2px solid;
+    border:rgb(5, 63, 129) 2px solid;
     border-collapse: collapse;
     text-align: justify;
 }
 td {
-    border:rgb(253, 210, 16) 2px solid;
+    border:rgb(5, 63, 129) 2px solid;
+    text-align: justify;
+  }
+th{
+    border:rgb(5, 63, 129) 2px solid;
     text-align: justify;
   }
 #infoservicios .contenedor {
@@ -59,25 +63,28 @@ td {
     text-align: left;
     
 }
-#infoservicios .contenedor h4  {
-    color: rgb(224, 174, 36);
+#infoservicios .contenedor .info-pet  h5  {
+    color: rgb(20, 19, 17);
     
 }
 .info-pet {
     margin: 5px;
     border-radius: 6px;
-    background: rgb(10, 85, 182);
-    color: rgb(255, 255, 255); 
-    
-    box-shadow:7px 8px 5px rgb(5, 93, 134);
+    color: rgb(8, 7, 7); 
     margin-bottom: 15px;
     padding: 10px;
+    -o-box-shadow:      12px 12px 29px #555;
+    -icab-box-shadow:   12px 12px 29px #555;
+    -khtml-box-shadow:  12px 12px 29px #555;
+    -moz-box-shadow:    12px 12px 29px #555;
+    -webkit-box-shadow: 12px 12px 29px #555;
+    box-shadow:         12px 12px 29px #555;
 }
 
 #infoservicios p{
     text-align: justify;
-    color: white; 
-    text-shadow: black 0.1em 0.1em 0.2em;
+    color: rgb(7, 7, 7); 
+   
    
 }
 
